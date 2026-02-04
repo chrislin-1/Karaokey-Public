@@ -1,0 +1,355 @@
+[
+    {
+        "id": "drivers_license",
+        "artist": "Olivia Rodrigo",
+        "title": "drivers license",
+        "releaseYear": "2021",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/drivers_license.txt",
+        "numID": 0
+    },
+    {
+        "id": "bohemian_rhapsody",
+        "artist": "Queen",
+        "title": "Bohemian Rhapsody",
+        "releaseYear": "1975",
+        "genre": "Rock",
+        "lyricsFile": "lyrics/bohemian_rhapsody.txt",
+        "numID": 1
+    },
+    {
+        "id": "before_he_cheats",
+        "artist": "Carrie Underwood",
+        "title": "Before He Cheats",
+        "releaseYear": "2005",
+        "genre": "Country",
+        "lyricsFile": "lyrics/before_he_cheats.txt",
+        "numID": 2
+    },
+    {
+        "id": "dont_stop_believing",
+        "artist": "Journey",
+        "title": "Don't Stop Believin'",
+        "releaseYear": "1981",
+        "genre": "Rock",
+        "lyricsFile": "lyrics/dont_stop_believing.txt",
+        "numID": 3
+    },
+    {
+        "id": "creep",
+        "artist": "Radiohead",
+        "title": "Creep",
+        "releaseYear": "1992",
+        "genre": "Alt Rock",
+        "lyricsFile": "lyrics/creep.txt",
+        "numID": 4
+    },
+    {
+        "id": "shallow",
+        "artist": "Lady Gaga & Bradley Cooper",
+        "title": "Shallow",
+        "releaseYear": "2018",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/shallow.txt",
+        "numID": 5
+    },
+    {
+        "id": "rolling_in_the_deep",
+        "artist": "Adele",
+        "title": "Rolling in the Deep",
+        "releaseYear": "2010",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/rolling_in_the_deep.txt",
+        "numID": 6
+    },
+    {
+        "id": "i_want_it_that_way",
+        "artist": "Backstreet Boys",
+        "title": "I Want It That Way",
+        "releaseYear": "1999",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/i_want_it_that_way.txt",
+        "numID": 7
+    },
+    {
+        "id": "sweater_weather",
+        "artist": "The Neighbourhood",
+        "title": "Sweater Weather",
+        "releaseYear": "2012",
+        "genre": "Alt Rock",
+        "lyricsFile": "lyrics/sweater_weather.txt",
+        "numID": 8
+    },
+    {
+        "id": "kill_bill",
+        "artist": "SZA",
+        "title": "Kill Bill",
+        "releaseYear": "2022",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/kill_bill.txt",
+        "numID": 9
+    },
+    {
+        "id": "all_i_want_for_christmas_is_you",
+        "artist": "Mariah Carey",
+        "title": "All I Want for Christmas Is You",
+        "releaseYear": "1994",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/all_i_want_for_christmas_is_you.txt",
+        "numID": 10
+    },
+    {
+        "id": "dreams",
+        "artist": "Fleetwood Mac",
+        "title": "Dreams",
+        "releaseYear": "1977",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/dreams.txt",
+        "numID": 11
+    },
+    {
+        "id": "never_gonna_give_you_up",
+        "artist": "Rick Astley",
+        "title": "Never Gonna Give You Up",
+        "releaseYear": "1987",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/never_gonna_give_you_up.txt",
+        "numID": 12
+    },
+    {
+        "id": "dancing_queen",
+        "artist": "ABBA",
+        "title": "Dancing Queen",
+        "releaseYear": "1976",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/dancing_queen.txt",
+        "numID": 13
+    },
+    {
+        "id": "birds_of_a_feather",
+        "artist": "Billie Eilish",
+        "title": "Birds of a Feather",
+        "releaseYear": "2024",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/birds_of_a_feather.txt",
+        "numID": 14
+    },
+    {
+        "id": "love_story",
+        "artist": "Taylor Swift",
+        "title": "Love Story",
+        "releaseYear": "2008",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/love_story.txt",
+        "numID": 15
+    },
+    {
+        "id": "poker_face",
+        "artist": "Lady Gaga",
+        "title": "Poker Face",
+        "releaseYear": "2008",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/poker_face.txt",
+        "numID": 16
+    },
+    {
+        "id": "i_wanna_dance_with_somebody",
+        "artist": "Whitney Houston",
+        "title": "I Wanna Dance With Somebody",
+        "releaseYear": "1987",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/i_wanna_dance_with_somebody.txt",
+        "numID": 17
+    },
+    {
+        "id": "what_makes_you_beautiful",
+        "artist": "One Direction",
+        "title": "What Makes You Beautiful",
+        "releaseYear": "2011",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/what_makes_you_beautiful.txt",
+        "numID": 18
+    },
+    {
+        "id": "party_in_the_usa",
+        "artist": "Miley Cyrus",
+        "title": "Party in the USA",
+        "releaseYear": "2009",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/party_in_the_usa.txt",
+        "numID": 19
+    },
+    {
+        "id": "umbrella",
+        "artist": "Rihanna",
+        "title": "Umbrella",
+        "releaseYear": "2007",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/umbrella.txt",
+        "numID": 20
+    },
+    {
+        "id": "royals",
+        "artist": "Lorde",
+        "title": "Royals",
+        "releaseYear": "2013",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/royals.txt",
+        "numID": 21
+    },
+    {
+        "id": "yesterday",
+        "artist": "The Beatles",
+        "title": "Yesterday",
+        "releaseYear": "1965",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/yesterday.txt",
+        "numID": 22
+    },
+    {
+        "id": "defying_gravity",
+        "artist": "Cynthia Erivo & Ariana Grande",
+        "title": "Defying Gravity",
+        "releaseYear": "2024",
+        "genre": "Musical",
+        "lyricsFile": "lyrics/defying_gravity.txt",
+        "numID": 23
+    },
+    {
+        "id": "thank_u_next",
+        "artist": "Ariana Grande",
+        "title": "thank u, next",
+        "releaseYear": "2018",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/thank_u_next.txt",
+        "numID": 24
+    },
+    {
+        "id": "best_part",
+        "artist": "Daniel Caesar ft. H.E.R.",
+        "title": "Best Part",
+        "releaseYear": "2017",
+        "genre": "R&B",
+        "lyricsFile": "lyrics/best_part.txt",
+        "numID": 25
+    },
+    {
+        "id": "wonderwall",
+        "artist": "Oasis",
+        "title": "Wonderwall",
+        "releaseYear": "1995",
+        "genre": "Rock",
+        "lyricsFile": "lyrics/wonderwall.txt",
+        "numID": 26
+    },
+    {
+        "id": "espresso",
+        "artist": "Sabrina Carpenter",
+        "title": "Espresso",
+        "releaseYear": "2024",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/espresso.txt",
+        "numID": 27
+    },
+    {
+        "id": "gods_plan",
+        "artist": "Drake",
+        "title": "God's Plan",
+        "releaseYear": "2018",
+        "genre": "Rap",
+        "lyricsFile": "lyrics/gods_plan.txt",
+        "numID": 28
+    },
+    {
+        "id": "viva_la_vida",
+        "artist": "Coldplay",
+        "title": "Viva La Vida",
+        "releaseYear": "2008",
+        "genre": "Rock",
+        "lyricsFile": "lyrics/viva_la_vida.txt",
+        "numID": 29
+    },
+    {
+        "id": "good_luck_babe",
+        "artist": "Chappell Roan",
+        "title": "Good Luck Babe",
+        "releaseYear": "2024",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/good_luck_babe.txt",
+        "numID": 30
+    },
+    {
+        "id": "still_into_you",
+        "artist": "Paramore",
+        "title": "Still Into You",
+        "releaseYear": "2013",
+        "genre": "Pop Rock",
+        "lyricsFile": "lyrics/still_into_you.txt",
+        "numID": 31
+    },
+    {
+        "id": "super_bass",
+        "artist": "Nicki Minaj",
+        "title": "Super Bass",
+        "releaseYear": "2010",
+        "genre": "Rap",
+        "lyricsFile": "lyrics/super_bass.txt",
+        "numID": 32
+    },
+    {
+        "id": "teenage_dream",
+        "artist": "Katy Perry",
+        "title": "Teenage Dream",
+        "releaseYear": "2010",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/teenage_dream.txt",
+        "numID": 33
+    },
+    {
+        "id": "boulevard_of_broken_dreams",
+        "artist": "Green Day",
+        "title": "Boulevard of Broken Dreams",
+        "releaseYear": "2004",
+        "genre": "Rock",
+        "lyricsFile": "lyrics/boulevard_of_broken_dreams.txt",
+        "numID": 34
+    },
+    {
+        "id": "a_team",
+        "artist": "Ed Sheeran",
+        "title": "A Team",
+        "releaseYear": "2011",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/a_team.txt",
+        "numID": 35
+    },
+    {
+        "id": "earfquake",
+        "artist": "Tyler, The Creator",
+        "title": "Earfquake",
+        "alt-title": "Earthquake",
+        "releaseYear": "2019",
+        "genre": "Neo-Soul/Pop Rap",
+        "lyricsFile": "lyrics/earfquake.txt",
+        "numID": 36
+    },
+    {
+        "id": "stayin_alive",
+        "artist": "Bee Gees",
+        "title": "Stayin' Alive",
+        "releaseYear": "1977",
+        "genre": "Disco",
+        "lyricsFile": "lyrics/stayin_alive.txt",
+        "numID": 37
+    },
+    {
+        "id": "aint_no_mountain",
+        "artist": "Marvin Gaye",
+        "features": "Tammi Terrell",
+        "title": "Ain't No Mountain High Enough",
+        "releaseYear": "1967",
+        "genre": "R&B",
+        "lyricsFile": "lyrics/aint_no_mountain.txt",
+        "numID": 38
+    }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-sclae=1.0"/>
+    <title>Lyric Guesser</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <div class="navbar">
+        <span id="navbar-header">Lyric Guesser</span>
+        <span id="navbar-subtitle">Guess the lyrics!</span>
+   </div>
+   <div class="lyric-container">
+    <div id="lyrics"></div>
+   </div>
+    <div id="hint-container">
+        <span>Song: </span><h2 id="song-title" class="word hidden answer"></h2>
+        <br>
+        <div id="hint-section">
+            <span class = "revealable">Artist: </span><span id="artist" class="word hidden answer revealable"></span>   
+            <span>Release Year: </span><span id="release-year" class="word hidden answer"></span>
+            <span>Genre: </span><span id="genre" class="word hidden answer"></span>
+        </div>
+        <div id="hint-buttons">
+                <button id="reveal-hint-button" class="button">Reveal a Word</button>
+                <button id="give-up-button" class="button">Give Up</button>    
+        </div>
+        <div id="guessed-words-container">
+            <div id="guessed-words-title">
+                <h3 id="guessed-words-header"></h3>
+                <h3 id="guessed-words-incorrect"></h3>
+            </div>
+            <table id="title-table" class="table">
+
+                    <tr>
+                        <th>Word</th>
+                        <th>Instances</th>
+                    </tr>
+
+            </table>
+            <div id="guesses-container">
+                <table id="guessed-words-table" class="table">
+                    <tbody id="guessed-words-tbody"></tbody>                    
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="victory-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-btn">x</button>
+            <h1>You Guessed The Song!!!</h1>
+            <h2>But do you know all the words...?</h2>
+        </div>
+    </div>
+    <div id="full-victory-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-btn">x</button>            
+            <h1>WOW true fan ts</h1>
+            <h2>AND you didn't even use hints? Do you ever go outside?</h2>
+        </div>
+    </div>
+    <div id="loss-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-btn">x</button>
+            <h1>Better luck next time!</h1>
+            <h2>The correct song was: <span id="correct-song-title" class="answer"></span> by <span id="correct-artist" class="answer"></span></h2>
+        </div>
+    </div>
+    <div id="hint-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-btn">x</button>
+            <h1>Need Hints?</h1>
+            <p>Finding 4 unique words earns you a random lyric reveal.</p>
+        </div>
+    </div>
+   <div id="search-container">
+    <input type="text" id="searchInput">
+    <button class="button" type="button" id="guessButton">Guess</button>
+   </div>
+   <script src="script.js"></script>
+    <!-- <script src="lyricHider.js"></script> -->
+</body>
+</html>
