@@ -44,7 +44,7 @@ async function loadSongs() {
   const songs = await response.json();
   const randIndex = Math.floor(Math.random() * songs.length);
   console.log(randIndex, songs[randIndex]); // array of objects with metadata + lyrics
-  return songs[37]; // just take first song for now
+  return songs[randIndex]; // just take first song for now
 }
 
 // --------------------
