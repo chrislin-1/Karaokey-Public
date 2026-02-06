@@ -35,7 +35,7 @@ let usedHints = false;
 const API_BASE =
   window.location.hostname === "localhost"
     ? "http://localhost:3000"
-    : "https://your-backend.up.railway.app";
+    : "https://karaokey-production.up.railway.app";
 // --------------------
 // Load songs
 // --------------------
