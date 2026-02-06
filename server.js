@@ -26,5 +26,5 @@ app.get("/api/songs", (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Server running at http://${__dirname}:${PORT}`);
 });
