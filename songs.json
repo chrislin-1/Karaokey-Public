@@ -226,7 +226,8 @@
     },
     {
         "id": "best_part",
-        "artist": "Daniel Caesar ft. H.E.R.",
+        "artist": "Daniel Caesar",
+        "features": "H.E.R",
         "title": "Best Part",
         "releaseYear": "2017",
         "genre": "R&B",
@@ -351,5 +352,87 @@
         "genre": "R&B",
         "lyricsFile": "lyrics/aint_no_mountain.txt",
         "numID": 38
+    },
+    {
+        "id": "take_on_me",
+        "artist": "a-ha",
+        "title": "Take on Me",
+        "releaseYear": "1985",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/take_on_me.txt",
+        "numID": 39
+    },
+    {
+        "id": "rude",
+        "artist": "Magic!",
+        "title": "Rude",
+        "releaseYear": "2013",
+        "genre": "Reggae",
+        "lyricsFile": "lyrics/rude.txt",
+        "numID": 40
+    },
+    {
+        "id": "hey_soul_sister",
+        "artist": "Train",
+        "title": "Hey Soul Sister",
+        "releaseYear": "2009",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/hey_soul_sister.txt",
+        "numID": 41
+    },
+    {
+        "id": "call_me_maybe",
+        "artist": "Carly Rae Jepsen",
+        "title": "Call Me Maybe",
+        "releaseYear": "2011",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/call_me_maybe.txt",
+        "numID": 42
+    },
+    {
+        "id": "halo",
+        "artist": "Beyonce",
+        "title": "Halo",
+        "releaseYear": "2008",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/halo.txt",
+        "numID": 43
+    },
+    {
+        "id": "little_talks",
+        "artist": "Of Monsters And Men",
+        "title": "Little Talks",
+        "releaseYear": "2011",
+        "genre": "Indie Folk/Indie Pop",
+        "lyricsFile": "lyrics/little_talks.txt",
+        "numID": 44
+    },
+    {
+        "id": "take_me_home_country_roads",
+        "artist": "John Denver",
+        "title": "Take Me Home, Country Roads",
+        "releaseYear": "1971",
+        "genre": "Country",
+        "lyricsFile": "lyrics/take_me_home_country_roads.txt",
+        "numID": 45
+    },
+    {
+        "id": "baby",
+        "artist": "Justin Bieber",
+        "features": "Ludacris",
+        "title": "Baby",
+        "releaseYear": "2010",
+        "genre": "Pop",
+        "lyricsFile": "lyrics/baby.txt",
+        "numID": 46
+    },
+    {
+        "id": "skinny_love",
+        "artist": "Bon Iver",
+        "title": "Skinny Love",
+        "releaseYear": "2011",
+        "genre": "Indie Folk",
+        "lyricsFile": "lyrics/skinny_love.txt",
+        "numID": 47
     }
 ]

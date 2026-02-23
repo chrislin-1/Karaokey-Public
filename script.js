@@ -32,6 +32,8 @@ const hintModal = document.getElementById("hint-modal");
 let gameDifficulty = "easy"; // default difficulty
 let hintCoins = 0; // hints must be built up and spent 
 let usedHints = false;
+let currentGreen;
+let alreadyGuessed = false;
 const API_BASE =
   window.location.hostname === "localhost"
     ? "http://localhost:3000"
@@ -136,6 +138,9 @@ function renderLyrics(tokens) {
           span.classList.add("just-revealed");
           token.justRevealed = false; // clear after render
         }
+        if (token.text == currentGreen) {
+          span.classList.add("correct-guess");
+        }
       } else {
           span.className = "word hidden";
         }
@@ -163,6 +168,14 @@ function renderLyrics(tokens) {
 
       container.appendChild(span);
     });
+
+    if (alreadyGuessed) {
+      const searchContainer = document.getElementById("search-container");
+      const alreadyGuessedSpan = document.createElement("span");
+      alreadyGuessedSpan.className = "already-guessed";
+      alreadyGuessedSpan.textContent = "Already Guessed!";
+      searchContainer.prepend(alreadyGuessedSpan);
+    }
 }
 
 // --------------------
@@ -183,14 +196,22 @@ function applyGuess(guess) {
   let guessInstances = 0;
   let correctGuess = "";
   let isHint = false;
+  let index = 0;
+  alreadyGuessed = false;
 
   for (const entry of guessedWords) {
     if(normalize(entry.word) === normalizedGuess) {
+
       console.log("Word already guessed:", entry.word);
       console.log("Skipping...");
       entry.justRevealed = true;
+      guessedWords.splice(index, 1);
+      guessedWords.unshift(entry);
+      if(entry.correct == true) currentGreen = entry.word;
+      alreadyGuessed = true;
       return;
     }
+    index++;
   }
 
   for (const token of tokens) {
@@ -216,16 +237,12 @@ function applyGuess(guess) {
       // otherwise increment count
       guessInstances += 1;
       correctGuess = token.text;
+      // add property to show currently highlighted (most recently revealed lyric)
+      currentGreen = token.text;
     }
   }
 
   if(correctGuess === "") {
-    for (const entry of guessedWords) {
-      if(entry.word === normalizedGuess) {
-        entry.justRevealed = true;
-        return; // already guessed incorrect word
-      }
-    }
     incorrectGuessesCount++;
     totalGuessesCount++;
     guessedWords.unshift({ word: guess, instances: guessInstances, correct: false, justRevealed: true });

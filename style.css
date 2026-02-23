@@ -208,9 +208,18 @@ td {
 
 .incorrect-guess.just-revealed {
     animation-name: shake;
-    animation-duration: 0.8s; /* Adjust speed as needed */
+    animation-duration: 0.5s; /* Adjust speed as needed */
     animation-iteration-count: 1; /* or a specific number, e.g., 3 */
     animation-timing-function: ease-in-out
+}
+
+.already-guessed {
+    position: absolute;
+    top: 0px;
+    animation-name: fade;
+    animation-duration: 2s;
+    color: red; 
+    opacity: 0;
 }
 
 /* --- Modal Overlay --- */
@@ -296,7 +305,22 @@ td {
 
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
-  20%, 60% { transform: translateX(-5px); }
-  40%, 80% { transform: translateX(5px); }
+  20%, 60% { transform: translateX(-2px); }
+  40%, 80% { transform: translateX(2px); }
+}
+
+@keyframes fade {
+    from { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 900px) {
+
 }
 
